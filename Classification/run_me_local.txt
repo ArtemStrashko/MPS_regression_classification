@@ -1,0 +1,1 @@
+#DISBATCH REPEAT 57 module purge ; module load julia ; julia -t 32 tests.jl $(( DISBATCH_REPEAT_INDEX / 19 )) $(( DISBATCH_REPEAT_INDEX % 19 )) &> nc_${DISBATCH_REPEAT_INDEX}.log

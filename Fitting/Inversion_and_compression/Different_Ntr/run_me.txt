@@ -1,0 +1,1 @@
+#DISBATCH REPEAT 17 module purge ; module add julia ; julia Exact_inv.jl ${DISBATCH_REPEAT_INDEX} &> shift_${DISBATCH_REPEAT_INDEX}.log

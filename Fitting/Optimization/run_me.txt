@@ -1,0 +1,1 @@
+#DISBATCH REPEAT 2900 module purge ; module add julia; julia -t 8 Optim.jl $(( DISBATCH_REPEAT_INDEX / 29 )) $(( DISBATCH_REPEAT_INDEX % 29 )) &> nc_${DISBATCH_REPEAT_INDEX}.log
