@@ -4,7 +4,7 @@ This folder contains code used to obtain the results presented in our paper "MPS
 
 1. Classification
 
-Contains code used for obtaining classification results with the MNIST data set.
+Contains code used for obtaining classification results with the MNIST data set (use julia 1.6).
 
 2. Fitting
 
